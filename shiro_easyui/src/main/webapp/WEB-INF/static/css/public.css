@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+/*----------------------------------------------------------------------*/
+/*                                                                      */
+/*                               公用样式                               */
+/*                                                                      */
+/*----------------------------------------------------------------------*/
+
+*{padding:0; margin:0;}
+body{color:#222;font-family:"宋体",Arial, Helvetica,sans-serif;font-size:12px;}
+
+
+	
+/*            添加表单样式               		 */
+
+.add_tab{
+	border-right:1px solid #a7d6fe;
+	border-bottom:1px solid #a7d6fe;
+	margin:10px auto;}
+	
+.add_tab th{
+	text-align:right;
+	border-left:1px solid #9091d6;
+	border-top:1px solid #9091d6; 
+	background:#dae6f4; 
+	color:#000; 
+	font-weight}
+	
+.add_tab td{
+	border-left:1px solid #a7d6fe;
+	border-top:1px solid #a7d6fe;
+	padding:3px 6px;}
+	
+.add_tab caption{
+	font-size:15px; 
+	font-weight:bold; 
+	text-align:center; 
+	padding-bottom:8px;}
+	
+
+
+/***查询按钮**/
+.new_but{width:60px; height:23px; /* border:1px #93b8d8 solid; */cursor:pointer; padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/sousuo.png) left no-repeat; color:#000;}
+
+.new_but_1{ width:60px;height:23px; /*border:1px #039 solid;*/cursor:pointer;  padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/sousuo02.png) left no-repeat; color:#000;}
+
+/***重置按钮**/
+.new_b{ width:60px; height:23px;/*border:1px #93b8d8 solid;*/ cursor:pointer; padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/chongzhi.png) left no-repeat; color:#000;}
+.new_b_1{width:60px; height:23px;/* border:1px #039 solid;*/cursor:pointer;  padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/chongzhi02.png) left no-repeat; color:#000;}
+
+/***保存按钮**/
+.new_c{ width:60px; height:23px;/*border:1px #93b8d8 solid;*/ cursor:pointer; padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/baocun.png) left no-repeat; color:#000;}
+.new_c_1{width:60px; height:23px;/* border:1px #039 solid;*/cursor:pointer;  padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/baocun02.png) left no-repeat; color:#000;}
+
+/***选择按钮**/
+.new_d{ width:60px; height:23px;/*border:1px #93b8d8 solid;*/ cursor:pointer; padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/xuanze.png) left no-repeat; color:#000;}
+.new_d_1{width:60px; height:23px;/* border:1px #039 solid;*/cursor:pointer;  padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/xuanze02.png) left no-repeat; color:#000;}
+
+/***上传按钮**/
+.new_e{ width:60px; height:23px;/*border:1px #93b8d8 solid;*/ cursor:pointer; padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/shangchuan.png) left no-repeat; color:#000;}
+.new_e_1{width:60px; height:23px;/* border:1px #039 solid;*/cursor:pointer;  padding-left:28px; padding-right:6px; padding-top:6px; padding-bottom:6px;background: url(../images/shangchuan02.png) left no-repeat; color:#000;}
+
+.new_b_2{ border:1px #039 solid;cursor:pointer; background: #6cb3f9; color:#000; padding-left:8px; padding-right:8px; padding-top:4px; padding-bottom:4px;}
+.new_b_3{ border:1px #039 solid;cursor:pointer; background: #e1f2fc; color:#000;padding-left:8px; padding-right:8px;padding-top:4px; padding-bottom:4px;}
+
+/***添加图标**/
+.add_tu_1{ width:30px; height:23px;/*border:1px #93b8d8 solid;*/ cursor:pointer; padding-left:15px;  padding-top:3px; padding-bottom:3px; background: url(../images/icotianjia01.png) left no-repeat; color:#000;}
+.add_tu_2{ width:30px; height:23px;/*border:1px #93b8d8 solid;*/ cursor:pointer; padding-left:15px;  padding-top:3px; padding-bottom:3px; background: url(../images/icotianjia02.png) left no-repeat; color:#000;}
+
+/***选择人员和附件图标**/
+.people{background:url(../images/people2.gif) #e5f3ff no-repeat 68px center; }	
+.file{background:url(../images/file.png) #e5f3ff no-repeat 70px center; }	
+
+	
